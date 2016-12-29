@@ -1,14 +1,12 @@
-﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="RCOAdmin.SiteMaster" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="StudentPortal.master.vb" Inherits="RCOAdmin.StudentPortal" %>
 
-<%@ Import Namespace="RCOAdmin" %>
-<%@ Import Namespace="Microsoft.AspNet.Identity" %>
 <!DOCTYPE html>
 
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Student Portal</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -54,7 +52,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="Default.aspx" class="site_title"> <img style="max-height:30px" src="http://www.rbtc.org/images/stories/RBTCModules/logo.png"/><span style="font-size:16px"> Rhema Chinese Online</span></a>
+              <a href="StudentPortal.aspx" class="site_title"> <img style="max-height:30px" src="http://www.rbtc.org/images/stories/RBTCModules/logo.png"/><span style="font-size:16px"> Rhema Chinese Online</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -62,11 +60,11 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="../images/sean.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>Gary Crowl</h2>
+                <h2>Sean Adams</h2>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -77,72 +75,32 @@
             <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
-                <h3>Site Management</h3>
                 <ul class="nav side-menu">
-                  <li><a>User Management <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="glyphicon glyphicon-book"></i> Student Course Work <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="WebForm1.aspx">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
-                      <li><a href="index3.html">Dashboard3</a></li>
+                      <li><a href="Default.aspx">Current Courses</a></li>
+                      <li><a href="index2.html">Past Courses</a></li>
+                      <li><a href="index3.html">Certificates of Completion</a></li>
+                    </ul>
+                  </li>
+
+                <ul class="nav side-menu">
+                  <li><a><i class="glyphicon glyphicon-pencil"></i>  Course Registration <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="e_commerce.html">New Course Registration</a></li>
+                      <li><a href="projects.html">Future Courses</a></li>
+                      <li><a href="project_detail.html">Convert to for Credit</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="glyphicon glyphicon-screenshot"></i>  Rhema Online Chinese <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="page_403.html">About</a></li>
+                      <li><a href="page_404.html">FAQ</a></li>
+                      <li><a href="page_500.html">Refer</a></li>
+                      <li><a href="plain_page.html">Contact</a></li>
                     </ul>
                   </li>
                   
-                </ul>
-              </div>
-              <div class="menu_section">
-                <h3>Student Management</h3>
-                <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="Default.aspx">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
-                      <li><a href="index3.html">Dashboard3</a></li>
-                    </ul>
-                  </li>
-                 
-                </ul>
-              </div>
-              <div class="menu_section">
-                <h3>Course Management</h3>
-                <ul class="nav side-menu">
-                  <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="e_commerce.html">E-commerce</a></li>
-                      <li><a href="projects.html">Projects</a></li>
-                      <li><a href="project_detail.html">Project Detail</a></li>
-                      <li><a href="contacts.html">Contacts</a></li>
-                      <li><a href="profile.html">Profile</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="page_403.html">403 Error</a></li>
-                      <li><a href="page_404.html">404 Error</a></li>
-                      <li><a href="page_500.html">500 Error</a></li>
-                      <li><a href="plain_page.html">Plain Page</a></li>
-                      <li><a href="login.html">Login Page</a></li>
-                      <li><a href="pricing_tables.html">Pricing Tables</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                        <li><a href="#level1_1">Level One</a>
-                        <li><a>Level One<span class="fa fa-chevron-down"></span></a>
-                          <ul class="nav child_menu">
-                            <li class="sub_menu"><a href="level2.html">Level Two</a>
-                            </li>
-                            <li><a href="#level2_1">Level Two</a>
-                            </li>
-                            <li><a href="#level2_2">Level Two</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="#level1_2">Level One</a>
-                        </li>
-                    </ul>
-                  </li>                  
-                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
-                </ul>
               </div>
 
             </div>
@@ -178,7 +136,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">Gary Crowl
+                    <img src="../images/sean.jpg" alt="">Welcome, Sean
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -214,9 +172,9 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="../images/sean.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>Gary Crowl</span>
+                          <span>Welcome, Sean</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">
@@ -271,17 +229,10 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Rhema Chinese Online</p>
             </footer>
         </div>
-        <!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
+
       </div>
     </div>
 
