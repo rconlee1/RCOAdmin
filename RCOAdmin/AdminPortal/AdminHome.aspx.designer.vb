@@ -12,5 +12,5 @@ Option Explicit On
 
 
 
-Partial Public Class TryPage
+Partial Public Class AdminHome
 End Class

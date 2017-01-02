@@ -11,23 +11,14 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Portal1
+Partial Public Class AdminPortal
     
     '''<summary>
-    '''leftcolumn control.
+    '''ContentPlaceHolder1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents leftcolumn As Global.System.Web.UI.WebControls.ContentPlaceHolder
-    
-    '''<summary>
-    '''rightcolumn control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents rightcolumn As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents ContentPlaceHolder1 As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class
