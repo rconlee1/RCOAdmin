@@ -224,7 +224,6 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="AdminPortal\AdminHome.aspx" />
-    <None Include="AdminPortal\SDash.inc" />
     <Content Include="AdminPortal\SiteDashboard1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="AdminPortal\AdminPortal.Master" />
