@@ -79,19 +79,19 @@
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
                 <ul class="nav side-menu">
-                  <li><a><i class="glyphicon glyphicon-book"></i> Student Course Work <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="glyphicon glyphicon-book"></i> Student Portal <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="Default.aspx">Current Courses</a></li>
-                      <li><a href="index2.html">Past Courses</a></li>
-                      <li><a href="index3.html">Certificates of Completion</a></li>
+                      <li><a href="#">Student Profile</a></li>
+                      <li><a href="/StudentPortal/StudentPortal.aspx">Current Course Progress</a></li>
+                      <li><a href="#">Certificates of Completion</a></li>
                     </ul>
                   </li>
 
                 <ul class="nav side-menu">
                   <li><a><i class="glyphicon glyphicon-pencil"></i>  Course Registration <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="e_commerce.html">New Course Registration</a></li>
-                      <li><a href="projects.html">Future Courses</a></li>
+                      <li><a href="/StudentPortal/courses.aspx">Courses</a></li>
+                      <li><a href="projects.html">Upcoming Courses</a></li>
                       <li><a href="project_detail.html">Convert to for Credit</a></li>
                     </ul>
                   </li>
