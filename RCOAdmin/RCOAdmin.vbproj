@@ -286,7 +286,6 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="SiteDashboard2.aspx" />
     <Content Include="StudentPortal\StudentPortal.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -489,13 +488,6 @@
     <Compile Include="Site.Master.vb">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SiteDashboard2.aspx.designer.vb">
-      <DependentUpon>SiteDashboard2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SiteDashboard2.aspx.vb">
-      <DependentUpon>SiteDashboard2.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Startup.vb" />
     <Compile Include="StudentPortal\StudentPortal.aspx.designer.vb">
