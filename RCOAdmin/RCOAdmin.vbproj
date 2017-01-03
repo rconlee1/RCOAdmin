@@ -239,6 +239,8 @@
       <DependentUpon>custom.css</DependentUpon>
     </Content>
     <Content Include="Content\custom.min11.css" />
+    <Content Include="images\rightousness.png" />
+    <Content Include="StudentPortal\courses.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -442,6 +444,13 @@
     </Compile>
     <Compile Include="Contact.aspx.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="StudentPortal\courses.aspx.designer.vb">
+      <DependentUpon>courses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPortal\courses.aspx.vb">
+      <DependentUpon>courses.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">

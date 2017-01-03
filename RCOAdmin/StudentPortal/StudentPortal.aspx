@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/StudentPortal/StudentPortal.Master" CodeBehind="StudentPortal.aspx.vb" Inherits="RCOAdmin.StudentPortal1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    
     <!-- page content -->
       <div class="right_col" role="main">
 
