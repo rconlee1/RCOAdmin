@@ -34,7 +34,7 @@
                           <div class="x_content">
                               
                             <div style="text-align: center; margin-bottom: 17px">
-                                <img src="/images/rightousness.png" />
+                                <img src="../images/rightousness.png" />
                              
                             </div>                         
 
@@ -58,7 +58,7 @@
                           <div class="x_content">
                               
                             <div style="text-align: center; margin-bottom: 17px">
-                                <img src="/images/rightousness.png" />
+                                <img src="../images/rightousness.png" />
                              
                             </div>                         
 
@@ -82,7 +82,7 @@
                           <div class="x_content">
                               
                             <div style="text-align: center; margin-bottom: 17px">
-                                <img src="/images/rightousness.png" />
+                                <img src="../images/rightousness.png" />
                              
                             </div>                         
 
@@ -106,7 +106,7 @@
                           <div class="x_content">
                               
                             <div style="text-align: center; margin-bottom: 17px">
-                                <img src="/images/rightousness.png" />
+                                <img src="../images/rightousness.png" />
                              
                             </div>                         
 
@@ -133,7 +133,7 @@
                           <div class="x_content">
                               
                             <div style="text-align: center; margin-bottom: 17px">
-                                <img src="/images/rightousness.png" />
+                                <img src="../images/rightousness.png" />
                              
                             </div>                         
 
