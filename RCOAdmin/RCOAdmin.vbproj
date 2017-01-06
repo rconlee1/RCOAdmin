@@ -224,6 +224,8 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="AdminPortal\AdminHome.aspx" />
+    <Content Include="AdminPortal\CreateUser_Admin.aspx" />
+    <Content Include="AdminPortal\form_validation.html" />
     <Content Include="AdminPortal\SiteDashboard1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="AdminPortal\AdminPortal.Master" />
@@ -287,7 +289,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="StudentPortal\StudentPortal.aspx" />
-    <Content Include="StudentPortal\try.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="packages.config" />
@@ -421,6 +422,13 @@
       <DependentUpon>AdminPortal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="AdminPortal\CreateUser_Admin.aspx.designer.vb">
+      <DependentUpon>CreateUser_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPortal\CreateUser_Admin.aspx.vb">
+      <DependentUpon>CreateUser_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="AdminPortal\SiteDashboard1.aspx.designer.vb">
       <DependentUpon>SiteDashboard1.aspx</DependentUpon>
     </Compile>
@@ -504,13 +512,6 @@
     <Compile Include="StudentPortal\StudentPortal.Master.vb">
       <DependentUpon>StudentPortal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="StudentPortal\try.aspx.designer.vb">
-      <DependentUpon>try.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StudentPortal\try.aspx.vb">
-      <DependentUpon>try.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

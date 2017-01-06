@@ -12,5 +12,5 @@ Option Explicit On
 
 
 
-Partial Public Class _try
+Partial Public Class CreateUser_Admin
 End Class
