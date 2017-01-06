@@ -241,7 +241,24 @@
       <DependentUpon>custom.css</DependentUpon>
     </Content>
     <Content Include="Content\custom.min11.css" />
+    <Content Include="coursecontent.aspx" />
+    <Content Include="images\app-screenshot.png" />
+    <Content Include="images\demo-bg.jpg" />
+    <Content Include="images\imageLoad-light.gif" />
+    <Content Include="images\imageLoad.gif" />
+    <Content Include="images\index-bg.jpg" />
+    <Content Include="images\itemLoad-light.gif" />
+    <Content Include="images\itemLoad.gif" />
+    <Content Include="images\player-loading-light.gif" />
+    <Content Include="images\player-loading.gif" />
     <Content Include="images\rightousness.png" />
+    <Content Include="js\jquery-1.11.3.min.js" />
+    <Content Include="js\jquery-ui-1.11.4.sortable.min.js" />
+    <Content Include="js\jquery.hammer-full.min.js" />
+    <Content Include="js\jquery.ui.touch-punch-improved.js" />
+    <Content Include="js\jquery.vimuse.js" />
+    <Content Include="js\jquery.vimuse.min.js" />
+    <Content Include="js\perfect-scrollbar.jquery.min.js" />
     <Content Include="StudentPortal\courses.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -251,6 +268,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\.DS_Store" />
+    <Content Include="js\.DS_Store" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\sean.jpg" />
     <Content Include="plain_page.html" />
@@ -454,6 +473,13 @@
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="coursecontent.aspx.designer.vb">
+      <DependentUpon>coursecontent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coursecontent.aspx.vb">
+      <DependentUpon>coursecontent.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="StudentPortal\courses.aspx.designer.vb">
       <DependentUpon>courses.aspx</DependentUpon>
     </Compile>
@@ -552,10 +578,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="cache\" />
+    <Folder Include="css\" />
+    <Folder Include="images\dark\" />
+    <Folder Include="images\light\" />
     <Folder Include="js\icheck\" />
     <Folder Include="js\nicescroll\" />
     <Folder Include="js\pace\" />
     <Folder Include="js\progressbar\" />
+    <Folder Include="mediaelement\" />
+    <Folder Include="media\" />
+    <Folder Include="php\" />
     <Folder Include="vendors\" />
   </ItemGroup>
   <PropertyGroup>

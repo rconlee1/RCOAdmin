@@ -23,6 +23,14 @@
 
     <!-- Custom Theme Style -->
     <link href="../Content/custom.min.css" rel="stylesheet">
+    
+	<link href='http://fonts.googleapis.com/css?family=Oswald|Lato|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="mediaelement/mediaelementplayer.min.css" />
+	<link rel="stylesheet" href="css/perfect-scrollbar.min.css" />
+	<link rel="stylesheet" href="css/demo.css" />
+	<link rel="stylesheet" href="css/vimuse-dark.css" />
 
             <!-- Custom Theme Scripts -->
     <script src="../js/custom.min.js"></script>
@@ -248,6 +256,12 @@
     <script src="../vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
     <script src="../vendors/nprogress/nprogress.js"></script>
+
+    <script>
+     $(document).ready(function() {
+         $('#my-player').vimuse();
+     });
+</script>
 
 </body>
 </html>
