@@ -577,7 +577,9 @@
     <Content Include="ViewSwitcher.ascx" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
+    <Folder Include="App_GlobalResources\" />
     <Folder Include="cache\" />
     <Folder Include="css\" />
     <Folder Include="images\dark\" />
