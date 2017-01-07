@@ -75,7 +75,21 @@
             <br />
 
             <!-- sidebar menu -->
+
+
+
+
+
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section" style="margin-left:15px;margin-top:5px;">
+
+                  <select id="langSeletor" style="height:30px;Width:150px;" Class ="nav side-menu login-drop">
+                      <option value="en-us">English</option>
+                      <option value="zh-chs">Simplified</option>
+                      <option value="zh-cht">Traditional</option>
+                  </select>
+
+                  </div>
               <div class="menu_section">
                 <h3>Site Management</h3>
                 <ul class="nav side-menu">
@@ -145,7 +159,7 @@
                       <li> <a href = "#" > Content Development/Administration</a></li>
                     </ul>
                   </li>
-
+                    </ul>
               </div>
 
             </div>
