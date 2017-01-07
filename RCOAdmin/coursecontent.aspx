@@ -38,11 +38,11 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>!window.jQuery && document.write('<script src="js/jquery-1.11.3.min.js"><\/script>')</script>
-	<script src="mediaelement/mediaelement-and-player.min.js"></script>
-	<script src="js/jquery-ui-1.11.4.sortable.min.js"></script>
-	<script src="js/jquery.ui.touch-punch-improved.js"></script>
-	<script src="js/jquery.hammer-full.min.js"></script>
-	<script src="js/perfect-scrollbar.jquery.min.js"></script>
+	<script src="../mediaelement/mediaelement-and-player.min.js"></script>
+	<script src="../js/jquery-ui-1.11.4.sortable.min.js"></script>
+	<script src="../js/jquery.ui.touch-punch-improved.js"></script>
+	<script src="../js/jquery.hammer-full.min.js"></script>
+	<script src="../js/perfect-scrollbar.jquery.min.js"></script>
 
 	<script src="js/jquery.vimuse.min.js"></script>
 	<script>
