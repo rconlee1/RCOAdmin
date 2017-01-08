@@ -1,4 +1,5 @@
 ﻿@charset "UTF-8";
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/css/mdb.min.css");
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 .daterangepicker .ranges li {

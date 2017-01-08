@@ -244,6 +244,7 @@
     <Content Include="coursecontent.aspx" />
     <Content Include="images\app-screenshot.png" />
     <Content Include="images\demo-bg.jpg" />
+    <Content Include="images\download.png" />
     <Content Include="images\imageLoad-light.gif" />
     <Content Include="images\imageLoad.gif" />
     <Content Include="images\index-bg.jpg" />

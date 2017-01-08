@@ -60,17 +60,7 @@
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
-            <div class="profile clearfix">
-              <div class="profile_pic">
-                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
-              </div>
-              <div class="profile_info">
-                <span>Welcome,</span>
-                <h2>Gary Crowl</h2>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-            <!-- /menu profile quick info -->
+            
 
             <br />
 
@@ -86,76 +76,31 @@
  
                   </div>
               <div class="menu_section">
-                <h3>Site Management</h3>
+                <h3></h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-dashboard"></i> Site Dashboards <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-plus"></i> Rhema Online Chinese <span class="fa fa-chevron-down"></span></a>
                       <ul class="nav child_menu">
-                      <li><a href="SiteDashboard2.aspx" > Site Statistics </a></li>
-                      <li><a href = "#" > Logins / Usage </a></li>
+                          <li><a href="SiteDashboard2.aspx" > About </a></li>
+                      <li><a href="SiteDashboard2.aspx" > Testimonials </a></li>
+                          <li><a href="SiteDashboard2.aspx" > Donate </a></li>
                     </ul>
                   </li>
-                  <li> <a> <i Class="fa fa-user"></i> User Management <span class="fa fa-chevron-down"></span></a>
-                      <ul Class="nav child_menu">
-                      <li> <a href = "#" > Create / Edit User </a></li>
-                      <li> <a href = "#" > Password Reset </a></li>
-                      <li> <a href = "#" > Activate / Deactivate User </a></li>
-                      <li> <a href = "#" > Role Assign/Change </a></li>
                     </ul>
-                  </li>
-                </ul>
-              </div>
+                               </div>
               <div Class="menu_section">
-                <h3> School Management</h3>
                 <ul Class="nav side-menu">
-                  <li> <a> <i Class="fa fa-university"></i> School Administration <span class="fa fa-chevron-down"></span></a>
+                  <li> <a> <i Class="fa fa-university"></i> Learning <span class="fa fa-chevron-down"></span></a>
                     <ul Class="nav child_menu">
-                      <li> <a href = "#" > Create / Edit School </a></li>
-                      <li> <a href = "#" > Dashboard </a></li>
-                      <li> <a href = "#" > Financials </a></li>
+                      <li> <a href = "#" > Free Courses </a></li>
+                      <li> <a href = "#" > Courses </a></li>
+                      <li> <a href = "#" > For Credit </a></li>
                     </ul>
                   </li>
-                  <li> <a> <i Class="fa fa-suitcase"></i> Student Administration <span class="fa fa-chevron-down"></span></a>
-                    <ul Class="nav child_menu">
-                      <li> <a href = "#" > Create / Edit Student </a></li>
-                      <li> <a href = "#" > Student Assignments/Grading </a></li>
-                      <li> <a href = "#" > Student Progress </a></li>
-                      <li> <a href = "#" > Student Records </a></li>
-                      <li> <a href = "#" > Student Awards/Diplomas </a></li>
-                    </ul>
-                  </li>
+                  
                  
                 </ul>
               </div>
-              <div Class="menu_section">
-                <h3> Curriculum Management</h3>
-                <ul Class="nav side-menu">
-                  <li> <a> <i Class="fa fa-sitemap"></i> Level Management <span class="fa fa-chevron-down"></span></a>
-                    <ul Class="nav child_menu">
-                      <li> <a href = "#" > Dashboard</a></li>
-                      <li> <a href = "#" > Level Development</a></li>
-                      <li> <a href = "#" > Level Administration</a></li>
-                    </ul>
-                  </li>
-                  <li> <a> <i Class="fa fa-modx"></i> Module Manangment <span class="fa fa-chevron-down"></span></a>
-                    <ul Class="nav child_menu">
-                      <li> <a href = "#" > Dashboard</a></li>
-                      <li> <a href = "#" >Module Development/Administration</a></li>
-                    </ul>
-                  </li>
-                      <li> <a> <i Class="fa fa-shopping-bag"></i> Course Manangment <span class="fa fa-chevron-down"></span></a>
-                    <ul Class="nav child_menu">
-                      <li> <a href = "#" > Dashboard</a></li>
-                      <li> <a href = "#" > Course Development/Administration</a></li>
-                    </ul>
-                  </li>
-                       <li> <a> <i Class="fa fa-paperclip"></i> Content Manangment <span class="fa fa-chevron-down"></span></a>
-                    <ul Class="nav child_menu">
-                      <li> <a href = "#" > Dashboard</a></li>
-                      <li> <a href = "#" > Content Development/Administration</a></li>
-                    </ul>
-                  </li>
-                    </ul>
-              </div>
+              
 
             </div>
             <!-- /sidebar menu -->
@@ -222,11 +167,12 @@
 <li>
                <div class="dropdown">
   <button class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   <span class="fa fa-language"></span>   Select Language
+     Select Language  <span class="caret"></span>
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
       <ul>
-    <li><a class="dropdown-item" href="#">English</a></li><hr />
+    <li><a class="dropdown-item" href="#">English</a></li>
+          <hr />
    <li> <a class="dropdown-item" href="#">Traditional</a> </li><hr />
    <li><a class="dropdown-item" href="#">Simplified</a></li><hr />
       </ul>
@@ -268,17 +214,17 @@
 
 
         <!-- jQuery -->
-    <script src="/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="./vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="./vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="/vendors/nprogress/nprogress.js"></script>
+    <script src="./vendors/nprogress/nprogress.js"></script>
         <!-- Custom Theme Scripts -->
-    <script src="/js/custom.min.js"></script>
+    <script src="./js/custom.min.js"></script>
 
-    <script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="./js/bootstrap/bootstrap-dropdown.js"></script>
 <script>
      $(document).ready(function(){
         $('.dropdown-toggle').dropdown()
