@@ -17,14 +17,14 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <!-- Bootstrap -->
-    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="../vendors/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="/vendors/font-awesome/css/font-awesome.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link href="/vendors/nprogress/nprogress.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="../Content/custom.min.css" rel="stylesheet">
+    <link href="/Content/custom.min.css" rel="stylesheet">
 </head>
 <body class="nav-md">
     <form runat="server">
@@ -83,12 +83,7 @@
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section" style="margin-left:15px;margin-top:5px;">
 
-                  <select id="langSeletor" style="height:30px;Width:150px;" Class ="nav side-menu login-drop">
-                      <option value="en-us">English</option>
-                      <option value="zh-chs">Simplified</option>
-                      <option value="zh-cht">Traditional</option>
-                  </select>
-
+ 
                   </div>
               <div class="menu_section">
                 <h3>Site Management</h3>
@@ -193,91 +188,60 @@
               </div>
 
               <ul Class="nav navbar-nav navbar-right">
+                 
                 <li Class="">
-                  <a href = "javascript:;" Class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src = "images/img.jpg" alt="">Gary Crowl
-                    <span Class=" fa fa-angle-down"></span>
-                  </a>
-                  <ul Class="dropdown-menu dropdown-usermenu pull-right">
-                    <li> <a href = "javascript:;" > Profile</a></li>
-                    <li>
-                                                                                                                                                      <a href = "javascript:;" >
-                        <span class="badge bg-red pull-right">50%</span>
-                                                                                                                                                      <span> Settings</span>
-                      </a>
-                    </li>
-                    <li> <a href = "javascript:;" > Help</a></li>
-                    <li> <a href = "Default.aspx" <> i Class="fa fa-sign-out pull-right"></i> Log Out</a></li>
-                  </ul>
-                </li>
+ 
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-elegant btn-sm" data-toggle="modal" data-target="#myModal"><span class="fa fa-pencil"></span>Sign-in/Sign-up</button>
 
-                <li role="presentation" class="dropdown">
-                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
-                  </a>
-                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                    <li>
-                                                                                                                                                              <a>
-                                                                                                                                                              <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                                                                                                                                                                  <span>Gary Crowl</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                                                                                                                                                                          <a>
-                                                                                                                                                                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                                                                                                                                                                              <span>Gary Crowl</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                                                                                                                                                                                      <a>
-                                                                                                                                                                                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                                                                                                                                                                                          <span>Gary Crowl</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                                                                                                                                                                                                  <a>
-                                                                                                                                                                                                  <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                                                                                                                                                                                                      <span>Gary Crowl</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                                                                                                                                                                                                              <div class="text-center">
-                        <a>
-                                                                                                                                                                                                                  <strong>See All Alerts</strong>
-                          <i class="fa fa-angle-right"></i>
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Welcome to RHEMA ONLINE CHINESE!</h4>
+      </div>
+     <div class="modal-body">
+            <form method="post" action='' name="login_form">
+              <p><input type="text" class="span3" name="eid" id="email" placeholder="Email"></p>
+              <p><input type="password" class="span3" name="passwd" placeholder="Password"></p>
+              <p><button type="submit" class="btn btn-elegant btn-sm">Sign in</button>
+                <a href="#">Forgot Password?</a>
+              </p>
+            </form>
           </div>
+          <div class="modal-footer">
+            New To Rhema Online Chinese? 
+            <a href="#" class="btn btn-elegant btn-sm">Become a Student!</a>
+          </div>
+      </div>
+      </li>
+<li>
+               <div class="dropdown">
+  <button class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="fa fa-language"></span>   Select Language
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <ul>
+    <li><a class="dropdown-item" href="#">English</a></li><hr />
+   <li> <a class="dropdown-item" href="#">Traditional</a> </li><hr />
+   <li><a class="dropdown-item" href="#">Simplified</a></li><hr />
+      </ul>
+  </div>
+</div> 
+</li>
+                
+                    
+                    
+                   
+                
+                  </ul>
+        
+            </nav>
+          </div></div>
         </div>
         <!-- /top navigation -->
 
@@ -304,14 +268,21 @@
 
 
         <!-- jQuery -->
-    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <script src="/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="../vendors/nprogress/nprogress.js"></script>
+    <script src="/vendors/nprogress/nprogress.js"></script>
         <!-- Custom Theme Scripts -->
-    <script src="../js/custom.min.js"></script>
+    <script src="/js/custom.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+<script>
+     $(document).ready(function(){
+        $('.dropdown-toggle').dropdown()
+    });
+</script>
 </body>
 </html>

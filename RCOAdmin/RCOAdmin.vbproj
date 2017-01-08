@@ -258,6 +258,7 @@
     <Content Include="js\jquery.ui.touch-punch-improved.js" />
     <Content Include="js\jquery.vimuse.js" />
     <Content Include="js\jquery.vimuse.min.js" />
+    <Content Include="js\ModalEffects.js" />
     <Content Include="js\perfect-scrollbar.jquery.min.js" />
     <Content Include="StudentPortal\courses.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
