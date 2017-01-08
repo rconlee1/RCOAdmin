@@ -75,8 +75,7 @@
 
  
                   </div>
-              <div class="menu_section">
-                <h3></h3>
+              <div class="menu_sectio">
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-plus"></i> Rhema Online Chinese <span class="fa fa-chevron-down"></span></a>
                       <ul class="nav child_menu">
@@ -87,7 +86,7 @@
                   </li>
                     </ul>
                                </div>
-              <div Class="menu_section">
+              <div Class="menu_sectio">
                 <ul Class="nav side-menu">
                   <li> <a> <i Class="fa fa-university"></i> Learning <span class="fa fa-chevron-down"></span></a>
                     <ul Class="nav child_menu">
@@ -95,13 +94,23 @@
                       <li> <a href = "#" > Courses </a></li>
                       <li> <a href = "#" > For Credit </a></li>
                     </ul>
+                  </li>              
+                 </ul>
+              </div>
+              
+        <div Class="menu_sectio">
+                <ul Class="nav side-menu">
+                  <li> <a> <i Class="fa fa-leaf"></i> Resources <span class="fa fa-chevron-down"></span></a>
+                    <ul Class="nav child_menu">
+                      <li> <a href = "#" > FAQ </a></li>
+                      <li> <a href = "#" > Rhema International </a></li>
+                     
+                    </ul>
                   </li>
                   
                  
                 </ul>
               </div>
-              
-
             </div>
             <!-- /sidebar menu -->
 

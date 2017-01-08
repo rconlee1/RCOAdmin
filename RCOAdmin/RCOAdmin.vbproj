@@ -247,6 +247,11 @@
     <Content Include="images\download.png" />
     <Content Include="images\imageLoad-light.gif" />
     <Content Include="images\imageLoad.gif" />
+    <Content Include="images\img1.jpg" />
+    <Content Include="images\img2.jpg" />
+    <Content Include="images\img3.jpg" />
+    <Content Include="images\img4.jpg" />
+    <Content Include="images\img5.jpg" />
     <Content Include="images\index-bg.jpg" />
     <Content Include="images\itemLoad-light.gif" />
     <Content Include="images\itemLoad.gif" />
