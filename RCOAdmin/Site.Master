@@ -79,7 +79,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-plus"></i> Rhema Online Chinese <span class="fa fa-chevron-down"></span></a>
                       <ul class="nav child_menu">
-                          <li><a href="SiteDashboard2.aspx" > About </a></li>
+                          <li><a href="About.aspx" > About </a></li>
                       <li><a href="SiteDashboard2.aspx" > Testimonials </a></li>
                           <li><a href="SiteDashboard2.aspx" > Donate </a></li>
                     </ul>
@@ -205,7 +205,6 @@
                   <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
             <footer>
                                                                                                                                                                                                                           <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
             </footer>

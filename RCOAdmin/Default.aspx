@@ -4,7 +4,7 @@
 <div class="right_col" role="main">
     <div class="col-sm-12 well-lg">
     <div class="jumbotron jttop">
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       <div id="myCarousel" class="carousel slide container" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -16,14 +16,14 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="images/img5.jpg" alt="Praying">
+      <img src="images/img5_cropped.jpg" alt="Praying">
     </div>
 
     <div class="item">
-      <img src="images/img3.jpg" style="height:500px" alt="Prayer">
+      <img src="images/img3_cropped.jpg"  alt="Prayer">
     </div>
 <div class="item">
-      <img src="images/img4.jpg" alt="Prayer">
+      <img src="images/img4_cropped.jpg" alt="Prayer">
     </div>
   </div>
 

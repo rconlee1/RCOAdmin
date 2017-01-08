@@ -68,7 +68,8 @@
                   </li>
                   <li> <a> <i class="fa fa-user"></i> User Management <span class="fa fa-chevron-down"></span></a>
                       <ul class="nav child_menu">
-                      <li> <a href = "CreateUser_Admin.aspx" > Create / Edit User </a></li>
+                      <li> <a href = "CreateUser_Admin.aspx" > Create User </a></li>
+                      <li> <a href = "#" > Edit User </a></li>
                       <li> <a href = "#" > Password Reset </a></li>
                       <li> <a href = "#" > Activate / Deactivate User </a></li>
                       <li> <a href = "#" > Role Assign/Change </a></li>
